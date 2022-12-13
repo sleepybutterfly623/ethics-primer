@@ -6,7 +6,8 @@ html, body{
 
 footer{
     font-style: italic;
-    text-align: center;
+    text-align: left;
+    font-size: 15px;
 }
 
 .nav {
