@@ -1,0 +1,133 @@
+html, body{
+    background-color: #A6DFE8;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #8b5b2f;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+  
+.nav a {
+    float: right;
+    display: block;
+    color: #f1d9bd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.nav a:hover {
+    background-color: #f1d9bd;
+    color: #8b5b2f;
+}
+  
+.nav .icon {
+    display: none;
+}
+  
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: left;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+#content{
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title{
+    background-color: #40a3b2;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.heading{
+    color: #8b5b2f;
+    text-align: center;
+    font-size: 50px;
+}
+
+.subheading{
+    border-bottom: 6px dotted #40a3b2;
+}
+
+.accordion {
+    background-color: #8b5b2f;
+    color: #f1d9bd;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #3F721B;
+    color: #C6E6B3;
+
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #C6E6B3;
+    display: none;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+}
+
+.questions{
+    border-radius: 20px;
+    text-align: left;
+    background-color: #40a3b2;
+}
+
+.questions p{
+    color: white;
+    padding: 10px 10px 0px 10px;
+}
+
+.questions li{
+    color: white;
+}
+
+a{
+    color: #007c8f;
+    color: #0272aa;
+}
